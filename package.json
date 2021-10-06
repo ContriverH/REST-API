@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "A rest api with node, mongodb and express",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ContriverH/REST-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ContriverH/REST-API/issues"
+  },
+  "homepage": "https://github.com/ContriverH/REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}

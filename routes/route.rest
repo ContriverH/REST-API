@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+###
+Get http://localhost:3000/subscribers/12
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Himanshu",
+    "subscribedToChannel": "Better World"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/12
+# here instead of 12, pass the actual id after seeing it from the database.
+
+###
+
+PATCH http://localhost:3000/subscribers/12
+Content-Type: application/json
+
+{
+    "name": "ContriverH",
+    "subscribedToChannel": "Better World"
+}
